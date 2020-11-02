@@ -1,0 +1,27 @@
+{
+    "name": "tjventurini/package-blueprint",
+    "description": "Blueprint for my laravel packages.",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thomas Venturini",
+            "email": "thomas@venturini.codes"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^6.0|^7.0|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tjventurini\\PACKAGENAMESPACE\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tjventurini\\PACKAGENAMESPACE\\PACKAGENAMESPACEerviceProvider"
+            ]
+        }
+    }
+}
