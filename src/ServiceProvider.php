@@ -2,10 +2,9 @@
 
 namespace Tjventurini\PACKAGENAMESPACE;
 
-use Illuminate\Support\ServiceProvider;
-use Marqant\MarqantFlex\Services\MarqantFlexService;
+use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 
-class ServiceProvider extends ServiceProvider
+class ServiceProvider extends BaseServiceProvider
 {
     /**
      * Register any application services.

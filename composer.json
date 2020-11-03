@@ -20,7 +20,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Tjventurini\\PACKAGENAMESPACE\\PACKAGENAMESPACEerviceProvider"
+                "Tjventurini\\PACKAGENAMESPACE\\ServiceProvider"
             ]
         }
     }
