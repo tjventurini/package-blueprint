@@ -1,12 +1,12 @@
 {
-    "name": "tjventurini/package-blueprint",
-    "description": "Blueprint for my laravel packages.",
+    "name": ":vendor_name/:package_name",
+    "description": ":description_text",
     "type": "package",
     "license": "MIT",
     "authors": [
         {
-            "name": "Thomas Venturini",
-            "email": "thomas@venturini.codes"
+            "name": ":author_name",
+            "email": ":author_email"
         }
     ],
     "require": {
@@ -14,13 +14,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Tjventurini\\PACKAGENAMESPACE\\": "src/"
+            ":vendor_namespace\\:package_namespace\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Tjventurini\\PACKAGENAMESPACE\\ServiceProvider"
+                ":vendor_namespace\\:package_namespace\\ServiceProvider"
             ]
         }
     }
