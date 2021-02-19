@@ -1,12 +1,12 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": ":description_text",
+    "name": ":vendor_name:/:package_name:",
+    "description": ":description_text:",
     "type": "package",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email"
+            "name": ":author_name:",
+            "email": ":author_email:"
         }
     ],
     "require": {
@@ -14,13 +14,13 @@
     },
     "autoload": {
         "psr-4": {
-            ":vendor_namespace\\:package_namespace\\": "src/"
+            ":vendor_namespace:\\:package_namespace:\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                ":vendor_namespace\\:package_namespace\\ServiceProvider"
+                ":vendor_namespace:\\:package_namespace:\\ServiceProvider"
             ]
         }
     }
