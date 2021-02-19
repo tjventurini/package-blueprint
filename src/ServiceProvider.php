@@ -1,6 +1,6 @@
 <?php
 
-namespace Tjventurini\PACKAGENAMESPACE;
+namespace :vendor_namespace:\:package_namespace:;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 
